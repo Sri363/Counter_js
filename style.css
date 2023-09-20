@@ -1,9 +1,9 @@
-html{
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: monospace, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -12,13 +12,13 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-        opacity: 1;
+    opacity: 1;
         background-image: linear-gradient(30deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(150deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(30deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(150deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(60deg, #58aab377 25%, transparent 25.5%, transparent 75%, #58aab377 75%, #58aab377), linear-gradient(60deg, #58aab377 25%, transparent 25.5%, transparent 75%, #58aab377 75%, #58aab377);
         background-size: 20px 35px;
         background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
 }
 
-nav{
+nav {
     box-shadow: 0px 1px 6px gray;
     padding: 5px;
     background-color: #ffae00;
@@ -34,7 +34,7 @@ nav{
 }
 
 
-.container-fluid{
+.container-fluid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,42 +47,43 @@ nav{
     color: black;
     margin: 0px auto;
     background-color: white;
-    
+
 }
 
 
 
-.title{
+.title {
     font-size: 80px;
 }
 
-.value{
+.value {
     font-size: 120px;
+    -webkit-text-stroke: 2px black;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     width: auto;
 }
 
-.btn{
+.btn {
     border: 1px solid black;
     margin: 10px;
 }
 
-#dec{
+#dec {
     background-color: #F71735;
 }
 
-#inc{
+#inc {
     background-color: #08A045;
 }
 
-#res{
+#res {
     background-color: #474747;
 }
 
-.btn{
+.btn {
     font-weight: 900;
     color: white;
     box-shadow: 3px 3px 0px black;
@@ -90,7 +91,7 @@ nav{
 }
 
 .btn:hover,
-.btn:focus{
+.btn:focus {
     color: white;
     box-shadow: 0px 0px;
 }
