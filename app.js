@@ -1,3 +1,4 @@
+
 const navBrand = document.querySelector('.nav-brand');
 const decBtn = document.querySelector('#dec');
 const resBtn = document.querySelector('#res');
@@ -8,15 +9,15 @@ const value = document.querySelector('.value');
 
 navBrand.style.textTransform = "uppercase";
 navBrand.style.fontWeight = "900";
-decBtn.addEventListener("click",decrement);
-resBtn.addEventListener("click",reset);
-incBtn.addEventListener("click",increment);
+decBtn.addEventListener("click", decrement);
+resBtn.addEventListener("click", reset);
+incBtn.addEventListener("click", increment);
 
 
 
 let i = 0;
-function increment(){
-    i +=1;
+function increment() {
+    i += 1;
     value.textContent = i;
 }
 
