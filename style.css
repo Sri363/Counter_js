@@ -1,0 +1,96 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: monospace, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+        opacity: 1;
+        background-image: linear-gradient(30deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(150deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(30deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(150deg, #58aab3 12%, transparent 12.5%, transparent 87%, #58aab3 87.5%, #58aab3), linear-gradient(60deg, #58aab377 25%, transparent 25.5%, transparent 75%, #58aab377 75%, #58aab377), linear-gradient(60deg, #58aab377 25%, transparent 25.5%, transparent 75%, #58aab377 75%, #58aab377);
+        background-size: 20px 35px;
+        background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+
+nav{
+    box-shadow: 0px 1px 6px gray;
+    padding: 5px;
+    background-color: #ffae00;
+    z-index: 999;
+    color: white;
+    -webkit-text-stroke: .1px black;
+    position: fixed;
+    width: 100%;
+    min-width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 4px 4px 0px black;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    margin: 0px auto;
+    background-color: white;
+    
+}
+
+
+
+.title{
+    font-size: 80px;
+}
+
+.value{
+    font-size: 120px;
+}
+
+.btn-container{
+    display: flex;
+    width: auto;
+}
+
+.btn{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#dec{
+    background-color: #F71735;
+}
+
+#inc{
+    background-color: #08A045;
+}
+
+#res{
+    background-color: #474747;
+}
+
+.btn{
+    font-weight: 900;
+    color: white;
+    box-shadow: 3px 3px 0px black;
+    transition-duration: .2s;
+}
+
+.btn:hover,
+.btn:focus{
+    color: white;
+    box-shadow: 0px 0px;
+}
